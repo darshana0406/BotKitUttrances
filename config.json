@@ -1,0 +1,41 @@
+{
+    "server": {
+        "port": 9003
+    },
+    "app": {
+        "apiPrefix" : "",
+        "url": "http://darshananode.ddns.net:9003"
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "apikey": "6bXsDB7fubpSjVbnGyz96QQdWcyfJlhkuD8ePfGGz8w=",
+        "appId": "cs-e02a2c78-b695-5dcf-8eb5-01b4b0e80c4e",
+        "st-67890":{
+            "apikey": "6bXsDB7fubpSjVbnGyz96QQdWcyfJlhkuD8ePfGGz8w=",
+            "appId": "cs-e02a2c78-b695-5dcf-8eb5-01b4b0e80c4e"
+        }
+    },
+    "jwt": {
+        "jwtAlgorithm": "HS256",
+        "jwt-expiry": 60,
+        "st-67890":{
+            "jwtAlgorithm": "HS512",
+            "jwt-expiry": 60
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
