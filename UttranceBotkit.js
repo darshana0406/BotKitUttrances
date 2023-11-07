@@ -62,11 +62,13 @@ module.exports = {
         // const userInput = data.context.NLAnalysis.userInput;
         // const found = tableData.some(row => row.IntentName === userInput && row.IntentEligibility === "Yes");
         fetchData()
+        sdk.saveData(requestId)
         .then(function(payload) {
+           
             // payload.context.successful = false;
             console.log(payload);
-            // sdk.respondToHook(payload);
-            callback(null, payload);
+            // payload.context.successful = false;
+            sdk.respondToHook(payload);
         });
         // .then(payload => {
         //     // context.pay = data;    
