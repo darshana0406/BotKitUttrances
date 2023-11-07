@@ -18,4 +18,4 @@ server.start();
 // sdk.registerBot(require('./OrderAPizza.js'));
 // sdk.registerBot(require('./BotVariables.js'));
 // sdk.registerBot(require('./LiveChat.js'));
-sdk.registerBot(require('./Uttrances_node.js'));
+sdk.registerBot(require('./UttranceBotkit.js'));
