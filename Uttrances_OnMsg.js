@@ -45,7 +45,7 @@ module.exports = {
                             return sdk.sendUserMessage(data, callback);
                         } else if (notfound) {
                             console.log(`No, Your input "${userInput}" is not Eligible`);
-                            data.message = 'No, Your Utterance is Not Eligible';
+                            data.message = userInput;
                             return sdk.sendUserMessage(data, callback);
                         } else {
                             console.log(`No, Your input "${userInput}" is not Eligible`);
